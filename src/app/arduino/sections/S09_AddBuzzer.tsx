@@ -3,9 +3,9 @@ import WiringTable from "@/components/WiringTable";
 
 export default function S09_AddBuzzer() {
   return (
-    <section id="section-8" className="slide px-6">
+    <section id="section-9" className="slide px-6">
       <div className="mx-auto max-w-4xl">
-        <p className="font-mono text-xs text-neon-purple/30 mb-6">[09/15]</p>
+        <p className="font-mono text-xs text-neon-purple/30 mb-6">[10/16]</p>
 
         <h2 className="font-mono text-3xl font-bold text-neon-purple mb-2">
           Step 4 — Add a Buzzer

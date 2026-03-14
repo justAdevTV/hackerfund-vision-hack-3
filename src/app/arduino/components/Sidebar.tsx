@@ -19,7 +19,7 @@ export default function Sidebar({ sections, activeIndex }: SidebarProps) {
     <nav className="py-4 px-3 space-y-1 overflow-y-auto h-full">
       {sections.map((section, i) => {
         const isActive = i === activeIndex;
-        const isStretch = section.id === "section-9" || section.id === "section-10";
+        const isStretch = section.id === "section-10" || section.id === "section-11";
         return (
           <button
             key={section.id}

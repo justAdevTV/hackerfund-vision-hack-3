@@ -3,9 +3,9 @@ import WiringTable from "@/components/WiringTable";
 
 export default function S08_AddLED() {
   return (
-    <section id="section-7" className="slide px-6">
+    <section id="section-8" className="slide px-6">
       <div className="mx-auto max-w-4xl">
-        <p className="font-mono text-xs text-neon-purple/30 mb-6">[08/15]</p>
+        <p className="font-mono text-xs text-neon-purple/30 mb-6">[09/16]</p>
 
         <h2 className="font-mono text-3xl font-bold text-neon-purple mb-2">
           Step 3 — Add an LED Reaction

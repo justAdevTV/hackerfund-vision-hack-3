@@ -46,7 +46,7 @@ export default function S03_CoolStuff() {
     <section id="section-2" className="slide px-6">
       <div className="mx-auto max-w-4xl">
         <p className="font-mono text-xs text-neon-purple/30 mb-6">
-          [03/15]
+          [03/16]
         </p>
 
         <h2 className="font-mono text-3xl font-bold text-neon-purple mb-8">

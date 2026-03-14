@@ -2,9 +2,9 @@ import WiringTable from "@/components/WiringTable";
 
 export default function S06_WireSensor() {
   return (
-    <section id="section-5" className="slide px-6">
+    <section id="section-6" className="slide px-6">
       <div className="mx-auto max-w-4xl">
-        <p className="font-mono text-xs text-neon-purple/30 mb-6">[06/15]</p>
+        <p className="font-mono text-xs text-neon-purple/30 mb-6">[07/16]</p>
 
         <h2 className="font-mono text-3xl font-bold text-neon-purple mb-2">
           Step 1 — Wire the Sensor
@@ -40,24 +40,6 @@ export default function S06_WireSensor() {
               ]}
             />
           </div>
-        </div>
-
-        {/* Wiring Diagram */}
-        <div className="mt-8">
-          <h3 className="font-mono text-sm font-bold text-neon-cyan mb-3">
-            Full Wiring Diagram
-          </h3>
-          <div className="rounded-xl border border-neon-cyan/20 bg-[#0d0d0d] p-4 overflow-hidden">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/wiring-diagram.svg"
-              alt="Complete Tinkercad wiring diagram showing Arduino Uno R3 connected to ultrasonic sensor (Pin 7), LED with 220Ω resistor (Pin 4), and piezo buzzer (Pin 3)"
-              className="w-full h-auto"
-            />
-          </div>
-          <p className="font-mono text-xs text-foreground/30 mt-2 text-center">
-            This shows the complete build — sensor + LED + buzzer. We&apos;ll add components one at a time.
-          </p>
         </div>
 
         <div className="mt-8 rounded-lg border border-neon-green/20 bg-neon-green/5 p-4">

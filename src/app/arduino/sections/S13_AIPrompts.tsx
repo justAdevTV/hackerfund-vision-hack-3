@@ -53,10 +53,10 @@ function Placeholder({ children }: { children: string }) {
 
 export default function S13_AIPrompts() {
   return (
-    <section id="section-12" className="slide px-6">
+    <section id="section-13" className="slide px-6">
       <div className="mx-auto max-w-4xl">
         <p className="font-mono text-xs text-neon-purple/30 mb-6">
-          [13/15]
+          [14/16]
         </p>
         <h2 className="font-mono text-3xl font-bold text-neon-purple mb-4">
           What Should I Build Next?

@@ -3,7 +3,7 @@ export default function S01_Title() {
     <section id="section-0" className="slide px-6">
       <div className="mx-auto max-w-4xl">
         <p className="font-mono text-xs text-neon-purple/30 mb-6">
-          [01/15]
+          [01/16]
         </p>
 
         <p className="font-mono text-sm text-neon-purple/50 tracking-widest mb-4">

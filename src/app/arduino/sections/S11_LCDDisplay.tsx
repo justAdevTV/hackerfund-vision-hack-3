@@ -3,9 +3,9 @@ import WiringTable from "@/components/WiringTable";
 
 export default function S11_LCDDisplay() {
   return (
-    <section id="section-10" className="slide px-6">
+    <section id="section-11" className="slide px-6">
       <div className="mx-auto max-w-4xl">
-        <p className="font-mono text-xs text-neon-purple/30 mb-6">[11/15]</p>
+        <p className="font-mono text-xs text-neon-purple/30 mb-6">[12/16]</p>
 
         <div className="flex items-center gap-3 mb-2">
           <h2 className="font-mono text-3xl font-bold text-neon-purple">

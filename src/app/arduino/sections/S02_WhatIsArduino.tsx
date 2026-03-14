@@ -3,7 +3,7 @@ export default function S02_WhatIsArduino() {
     <section id="section-1" className="slide px-6">
       <div className="mx-auto max-w-4xl">
         <p className="font-mono text-xs text-neon-purple/30 mb-6">
-          [02/15]
+          [02/16]
         </p>
 
         <h2 className="font-mono text-3xl font-bold text-neon-purple mb-8">

@@ -38,9 +38,9 @@ const RULES = [
 
 export default function S12_AIHelp() {
   return (
-    <section id="section-11" className="slide px-6">
+    <section id="section-12" className="slide px-6">
       <div className="mx-auto max-w-4xl">
-        <p className="font-mono text-xs text-neon-purple/30 mb-6">[12/15]</p>
+        <p className="font-mono text-xs text-neon-purple/30 mb-6">[13/16]</p>
 
         <h2 className="font-mono text-3xl font-bold text-neon-purple mb-2">
           Your AI Co-Pilot for Arduino Projects
