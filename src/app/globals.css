@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #e0e0e0;
+  --neon-green: #00FF41;
+  --neon-cyan: #00FFFF;
+  --neon-purple: #8B5CF6;
+  --surface: #111111;
+  --surface-2: #1a1a1a;
+  --border: #222222;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-neon-green: var(--neon-green);
+  --color-neon-cyan: var(--neon-cyan);
+  --color-neon-purple: var(--neon-purple);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --font-sans: 'Fira Code', monospace;
+  --font-mono: 'Share Tech Mono', monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Fira Code', monospace;
+}
+
+/* Neon glow utilities */
+.glow-green {
+  text-shadow: 0 0 7px #00FF41, 0 0 10px #00FF41, 0 0 21px #00FF41, 0 0 42px #00FF41;
+}
+
+.glow-cyan {
+  text-shadow: 0 0 7px #00FFFF, 0 0 10px #00FFFF, 0 0 21px #00FFFF, 0 0 42px #00FFFF;
+}
+
+.glow-purple {
+  text-shadow: 0 0 7px #8B5CF6, 0 0 10px #8B5CF6, 0 0 21px #8B5CF6, 0 0 42px #8B5CF6;
+}
+
+.box-glow-green {
+  box-shadow: 0 0 5px #00FF4133, 0 0 15px #00FF4122, inset 0 0 5px #00FF4111;
+}
+
+.box-glow-cyan {
+  box-shadow: 0 0 5px #00FFFF33, 0 0 15px #00FFFF22, inset 0 0 5px #00FFFF11;
+}
+
+.box-glow-purple {
+  box-shadow: 0 0 5px #8B5CF633, 0 0 15px #8B5CF622, inset 0 0 5px #8B5CF611;
+}
+
+/* Scanline overlay */
+.scanlines::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  pointer-events: none;
+  z-index: 50;
+}
+
+/* Grid background pattern */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(0, 255, 65, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 65, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Typing cursor animation */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: '█';
+  animation: blink 1s step-end infinite;
+  color: var(--neon-green);
+}
+
+/* Slide presentation styles */
+.slide {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.slide + .slide {
+  border-top: 1px solid var(--border);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+
+.slide {
+  scroll-snap-align: start;
+}
+
+/* Code block styling */
+.code-block {
+  background: #0d0d0d;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1.5rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.875rem;
+  overflow-x: auto;
+}
+
+/* Fade in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Hand wave animation */
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-wave {
+  animation: wave 2.5s ease-in-out infinite;
+  transform-origin: 70% 70%;
+}
+
+/* Presenter mode: disable scroll-snap */
+html.presenter-mode {
+  scroll-snap-type: y mandatory;
+}
+
+html.presenter-mode .slide {
+  scroll-snap-align: unset;
+}
+
+/* Print styles */
+@media print {
+  .scanlines::before,
+  .grid-bg,
+  nav,
+  .slide-nav,
+  [data-mode-toggle],
+  [data-sidebar],
+  [data-presenter-controls] {
+    display: none !important;
+  }
+
+  html {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .slide {
+    min-height: auto;
+    scroll-snap-align: unset;
+    page-break-inside: avoid;
+    padding: 1rem 0;
+    border: none !important;
+  }
+
+  .slide + .slide {
+    border: none !important;
+  }
+
+  .printable-area {
+    display: block !important;
+  }
+
+  .code-block {
+    border: 1px solid #ccc !important;
+    background: #f5f5f5 !important;
+    color: #111 !important;
+  }
+
+  .code-block * {
+    color: #111 !important;
+    text-shadow: none !important;
+  }
+
+  code { color: #111 !important; text-shadow: none !important; }
+}
