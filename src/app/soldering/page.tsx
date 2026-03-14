@@ -351,18 +351,24 @@ export default function SolderingPage() {
             <h3 className="font-mono text-sm font-bold text-foreground/70">
               📖 Guides & References
             </h3>
-            <ul className="space-y-2 text-sm text-foreground/50">
+            <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
                 <span className="text-neon-cyan">→</span>
-                Adafruit Guide to Excellent Soldering
+                <a href="https://learn.adafruit.com/adafruit-guide-excellent-soldering" target="_blank" rel="noopener noreferrer" className="text-foreground/50 underline underline-offset-4 hover:text-neon-cyan transition-colors">
+                  Adafruit Guide to Excellent Soldering
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-neon-cyan">→</span>
-                SparkFun — How to Solder
+                <a href="https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering" target="_blank" rel="noopener noreferrer" className="text-foreground/50 underline underline-offset-4 hover:text-neon-cyan transition-colors">
+                  SparkFun — How to Solder
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-neon-cyan">→</span>
-                IPC-A-610 Acceptability Standards (reference)
+                <a href="https://www.ipc.org/ipc-a-610-acceptability-electronics-assemblies" target="_blank" rel="noopener noreferrer" className="text-foreground/50 underline underline-offset-4 hover:text-neon-cyan transition-colors">
+                  IPC-A-610 Acceptability Standards (reference)
+                </a>
               </li>
             </ul>
           </div>
@@ -370,18 +376,24 @@ export default function SolderingPage() {
             <h3 className="font-mono text-sm font-bold text-foreground/70">
               🛒 Starter Kits
             </h3>
-            <ul className="space-y-2 text-sm text-foreground/50">
+            <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
                 <span className="text-neon-cyan">→</span>
-                Pinecil V2 Soldering Iron (USB-C powered)
+                <a href="https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/" target="_blank" rel="noopener noreferrer" className="text-foreground/50 underline underline-offset-4 hover:text-neon-cyan transition-colors">
+                  Pinecil V2 Soldering Iron (USB-C powered)
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-neon-cyan">→</span>
-                Practice PCB kits (search &quot;SMD practice board&quot;)
+                <span className="text-foreground/50">
+                  Practice PCB kits (search &quot;SMD practice board&quot;)
+                </span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-neon-cyan">→</span>
-                63/37 leaded solder, 0.8mm (easiest for beginners)
+                <span className="text-foreground/50">
+                  63/37 leaded solder, 0.8mm (easiest for beginners)
+                </span>
               </li>
             </ul>
           </div>

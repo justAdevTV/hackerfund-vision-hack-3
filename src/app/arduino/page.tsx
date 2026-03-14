@@ -15,13 +15,13 @@ import S10_Theremin from "./sections/S10_Theremin";
 import S11_LCDDisplay from "./sections/S11_LCDDisplay";
 import S12_AIHelp from "./sections/S12_AIHelp";
 import S13_AIPrompts from "./sections/S13_AIPrompts";
-import S13_CheatSheet from "./sections/S13_CheatSheet";
-import S14_WhatsNext from "./sections/S14_WhatsNext";
+import S14_CheatSheet from "./sections/S14_CheatSheet";
+import S15_WhatsNext from "./sections/S15_WhatsNext";
 
 export const metadata: Metadata = {
   title: "Arduino Workshop — Hacker Fund",
   description:
-    "Build an Arduino gesture controller with an ultrasonic sensor. Wave your hand, control the screen.",
+    "Build circuits with an ultrasonic sensor, LEDs, buzzers, and an LCD display — all in your browser with Tinkercad.",
 };
 
 function WorkshopLoading() {
@@ -51,8 +51,8 @@ export default function ArduinoPage() {
         <S11_LCDDisplay />
         <S12_AIHelp />
         <S13_AIPrompts />
-        <S13_CheatSheet />
-        <S14_WhatsNext />
+        <S14_CheatSheet />
+        <S15_WhatsNext />
       </WorkshopShell>
     </Suspense>
   );

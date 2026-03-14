@@ -160,13 +160,13 @@ html {
   transform-origin: 70% 70%;
 }
 
-/* Presenter mode: disable scroll-snap */
+/* Presenter mode: mandatory snap for precise keyboard navigation */
 html.presenter-mode {
   scroll-snap-type: y mandatory;
 }
 
 html.presenter-mode .slide {
-  scroll-snap-align: unset;
+  scroll-snap-align: start;
 }
 
 /* Print styles */

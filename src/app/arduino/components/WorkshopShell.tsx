@@ -137,7 +137,6 @@ export default function WorkshopShell({
           <PresenterControls
             totalSections={sections.length}
             activeIndex={activeIndex}
-            onNavigate={navigateTo}
           />
           <div className="pt-8">{children}</div>
         </>

@@ -3,7 +3,6 @@
 interface PresenterControlsProps {
   totalSections: number;
   activeIndex: number;
-  onNavigate: (index: number) => void;
 }
 
 export default function PresenterControls({
