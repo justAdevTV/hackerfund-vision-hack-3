@@ -8,7 +8,7 @@ function HeroSection() {
           // initializing workshop...
         </p>
         <h1 className="glow-green font-mono text-5xl font-bold leading-tight tracking-tight text-neon-green md:text-7xl">
-          HackerFund
+          Hacker Fund
           <br />
           <span className="text-foreground">Workshop</span>
         </h1>
@@ -160,10 +160,10 @@ function FooterSection() {
     <footer className="border-t border-border py-12">
       <div className="mx-auto max-w-5xl px-6 text-center">
         <p className="font-mono text-xs text-foreground/30">
-          {">"} HackerFund Workshop — built for makers, by makers
+          {">"} Hacker Fund Workshop — built for makers, by makers
         </p>
         <p className="font-mono text-xs text-foreground/20 mt-2">
-          © {new Date().getFullYear()} HackerFund
+          © {new Date().getFullYear()} Hacker Fund
         </p>
       </div>
     </footer>

@@ -1,5 +1,5 @@
 export const SECTIONS = [
-  { id: "section-0", title: "Gesture Controller Workshop", shortTitle: "Title" },
+  { id: "section-0", title: "Arduino Workshop", shortTitle: "Title" },
   { id: "section-1", title: "What is Arduino?", shortTitle: "Arduino 101" },
   { id: "section-2", title: "Cool Stuff People Built", shortTitle: "Showcase" },
   { id: "section-3", title: "Safety", shortTitle: "Safety" },

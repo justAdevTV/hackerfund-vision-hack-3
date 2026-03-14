@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import SlideNav from "@/components/SlideNav";
 
 export const metadata: Metadata = {
-  title: "Soldering Workshop — HackerFund",
+  title: "Soldering Workshop — Hacker Fund",
   description: "Learn to solder — safety, technique, and hands-on practice",
 };
 

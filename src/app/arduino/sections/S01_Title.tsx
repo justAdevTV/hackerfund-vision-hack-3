@@ -11,7 +11,7 @@ export default function S01_Title() {
         </p>
 
         <h1 className="glow-purple font-mono text-5xl font-bold text-neon-purple md:text-7xl">
-          Gesture Controller{" "}
+          Arduino{" "}
           <span className="inline-block animate-wave">👋</span>
           <br />
           Workshop

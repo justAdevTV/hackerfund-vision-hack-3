@@ -19,7 +19,7 @@ import S14_CheatSheet from "./sections/S13_CheatSheet";
 import S15_WhatsNext from "./sections/S14_WhatsNext";
 
 export const metadata: Metadata = {
-  title: "Gesture Controller Workshop — HackerFund",
+  title: "Arduino Workshop — Hacker Fund",
   description:
     "Build an Arduino gesture controller with an ultrasonic sensor. Wave your hand, control the screen.",
 };

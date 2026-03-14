@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "HackerFund Workshop",
+  title: "Hacker Fund Workshop",
   description: "Hands-on hardware hacking — soldering, Arduino, and beyond",
 };
 
@@ -15,7 +15,7 @@ function Navbar() {
           href="/"
           className="font-mono text-lg font-bold tracking-wider text-neon-green transition-all hover:glow-green"
         >
-          {">"} HackerFund_
+          {">"} Hacker Fund_
         </Link>
         <div className="flex gap-6 text-sm">
           <Link
