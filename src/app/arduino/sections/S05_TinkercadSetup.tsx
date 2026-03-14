@@ -1,36 +1,3 @@
-const STEPS = [
-  {
-    num: 1,
-    cmd: "open browser",
-    detail: "Navigate to tinkercad.com/circuits",
-  },
-  {
-    num: 2,
-    cmd: "create circuit",
-    detail: 'Click "Create new Circuit" (free Autodesk account needed)',
-  },
-  {
-    num: 3,
-    cmd: "explore canvas",
-    detail: "Blank canvas with component panel on the right",
-  },
-  {
-    num: 4,
-    cmd: "add arduino",
-    detail: 'Search "Arduino Uno R3" → drag onto canvas',
-  },
-  {
-    num: 5,
-    cmd: "add sensor",
-    detail: 'Search "Ultrasonic" → drag HC-SR04 onto canvas',
-  },
-  {
-    num: 6,
-    cmd: "ready",
-    detail: "Ready to wire!",
-  },
-] as const;
-
 export default function S05_TinkercadSetup() {
   return (
     <section id="section-4" className="slide px-6">
@@ -43,28 +10,97 @@ export default function S05_TinkercadSetup() {
           Your Workspace — Tinkercad Setup
         </h2>
 
-        {/* Steps styled as terminal commands */}
-        <div className="rounded-lg border border-border bg-surface-2 p-6 mb-8">
-          <p className="font-mono text-xs text-foreground/30 mb-4">
-            $ setup-workspace
-          </p>
-          <div className="space-y-4">
-            {STEPS.map((step) => (
-              <div key={step.num} className="flex items-start gap-3">
-                <span className="font-mono text-xs text-neon-purple/60 mt-0.5 flex-shrink-0">
-                  {String(step.num).padStart(2, "0")}
+        <div className="space-y-4 mb-8">
+          <div className="rounded-xl border border-neon-purple/15 bg-surface p-5 flex items-start gap-4">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-neon-purple/10 font-mono text-sm font-bold text-neon-purple">
+              1
+            </span>
+            <div>
+              <p className="font-mono text-sm font-bold text-foreground/80">
+                🌐 Open your browser
+              </p>
+              <p className="text-sm text-foreground/50 mt-1">
+                Go to{" "}
+                <span className="text-neon-cyan font-semibold">
+                  tinkercad.com/circuits
                 </span>
-                <div>
-                  <p className="font-mono text-sm text-neon-green">
-                    <span className="text-foreground/30">$ </span>
-                    {step.cmd}
-                  </p>
-                  <p className="text-xs text-foreground/50 mt-1">
-                    {step.detail}
-                  </p>
-                </div>
-              </div>
-            ))}
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-neon-purple/15 bg-surface p-5 flex items-start gap-4">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-neon-purple/10 font-mono text-sm font-bold text-neon-purple">
+              2
+            </span>
+            <div>
+              <p className="font-mono text-sm font-bold text-foreground/80">
+                🖱️ Click &quot;Create new Circuit&quot;
+              </p>
+              <p className="text-sm text-foreground/50 mt-1">
+                You&apos;ll need a free Autodesk account — sign up with Google
+                or email if you don&apos;t have one.
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-neon-purple/15 bg-surface p-5 flex items-start gap-4">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-neon-purple/10 font-mono text-sm font-bold text-neon-purple">
+              3
+            </span>
+            <div>
+              <p className="font-mono text-sm font-bold text-foreground/80">
+                👀 Explore the canvas
+              </p>
+              <p className="text-sm text-foreground/50 mt-1">
+                You&apos;ll see a blank canvas. On the right side is the{" "}
+                <span className="text-neon-green">component panel</span> —
+                this is where you find all your parts.
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-neon-purple/15 bg-surface p-5 flex items-start gap-4">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-neon-purple/10 font-mono text-sm font-bold text-neon-purple">
+              4
+            </span>
+            <div>
+              <p className="font-mono text-sm font-bold text-foreground/80">
+                🔍 Search &quot;Arduino Uno R3&quot;
+              </p>
+              <p className="text-sm text-foreground/50 mt-1">
+                Type it in the component panel search bar, then{" "}
+                <span className="text-neon-green">click and drag</span> it
+                onto the canvas.
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-neon-purple/15 bg-surface p-5 flex items-start gap-4">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-neon-purple/10 font-mono text-sm font-bold text-neon-purple">
+              5
+            </span>
+            <div>
+              <p className="font-mono text-sm font-bold text-foreground/80">
+                🔍 Search &quot;Ultrasonic&quot;
+              </p>
+              <p className="text-sm text-foreground/50 mt-1">
+                Drag the distance sensor onto the canvas near the Arduino.
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-neon-green/20 bg-neon-green/5 p-5 flex items-start gap-4">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-neon-green/10 font-mono text-sm font-bold text-neon-green">
+              ✓
+            </span>
+            <div>
+              <p className="font-mono text-sm font-bold text-neon-green">
+                Ready to wire!
+              </p>
+              <p className="text-sm text-foreground/50 mt-1">
+                Next section walks you through connecting them.
+              </p>
+            </div>
           </div>
         </div>
 
