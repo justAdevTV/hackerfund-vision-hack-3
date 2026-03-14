@@ -1,0 +1,120 @@
+<svg width="100%" viewBox="0 0 680 520" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<mask id="imagine-text-gaps-86gbct" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="520" fill="white"/><rect x="284.1008605957031" y="151.3501434326172" width="111.79830169677734" height="21.299707412719727" fill="black" rx="2"/><rect x="184.17921447753906" y="238.3481903076172" width="31.64156150817871" height="19.30359649658203" fill="black" rx="2"/><rect x="248.2078399658203" y="186.34820556640625" width="23.584300994873047" height="19.30359649658203" fill="black" rx="2"/><rect x="272.0583190917969" y="186.34820556640625" width="35.883317947387695" height="19.30359649658203" fill="black" rx="2"/><rect x="332.630126953125" y="186.34820556640625" width="34.739707946777344" height="19.30359649658203" fill="black" rx="2"/><rect x="372.2974548339844" y="186.34820556640625" width="35.405080795288086" height="19.30359649658203" fill="black" rx="2"/><rect x="422.77569580078125" y="186.34820556640625" width="34.44860649108887" height="19.30359649658203" fill="black" rx="2"/><rect x="457.7693786621094" y="39.35013961791992" width="124.46119689941406" height="21.29971694946289" fill="black" rx="2"/><rect x="453.4912414550781" y="58.34819793701172" width="133.01748657226562" height="19.30359649658203" fill="black" rx="2"/><rect x="462.8016662597656" y="102.02326965332031" width="34.396623611450195" height="19.30359649658203" fill="black" rx="2"/><rect x="502.0583190917969" y="102.02326965332031" width="35.883317947387695" height="19.30359649658203" fill="black" rx="2"/><rect x="546.066162109375" y="102.02326965332031" width="27.867643356323242" height="19.30359649658203" fill="black" rx="2"/><rect x="92.2298812866211" y="291.3501281738281" width="35.54023551940918" height="21.29971694946289" fill="black" rx="2"/><rect x="68.54673767089844" y="390.34820556640625" width="82.90652465820312" height="19.30359649658203" fill="black" rx="2"/><rect x="64.59607696533203" y="151.3501434326172" width="90.8078384399414" height="21.299707412719727" fill="black" rx="2"/><rect x="102.98502349853516" y="182.34820556640625" width="14.02994966506958" height="19.30359649658203" fill="black" rx="2"/><rect x="82.15850067138672" y="212.0232696533203" width="15.682987213134766" height="19.30359649658203" fill="black" rx="2"/><rect x="122.15850067138672" y="212.0232696533203" width="15.682987213134766" height="19.30359649658203" fill="black" rx="2"/><rect x="281.2279968261719" y="365.34820556640625" width="17.543954849243164" height="19.30359649658203" fill="black" rx="2"/><rect x="92" y="484.3481750488281" width="55.033607482910156" height="19.30359649658203" fill="black" rx="2"/><rect x="212" y="484.3481750488281" width="78.40486145019531" height="19.30359649658203" fill="black" rx="2"/><rect x="351.9999694824219" y="484.3481750488281" width="79.41331481933594" height="19.30359649658203" fill="black" rx="2"/><rect x="491.9999694824219" y="484.3481750488281" width="35.405080795288086" height="19.30359649658203" fill="black" rx="2"/><rect x="579.9999389648438" y="484.3481750488281" width="34.739707946777344" height="19.30359649658203" fill="black" rx="2"/></mask></defs>
+
+<!-- Arduino Uno board -->
+<rect x="200" y="140" width="280" height="240" rx="8" fill="rgb(18, 18, 18)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1.5"/>
+<rect x="200" y="140" width="280" height="36" rx="8" fill="rgb(24, 24, 24)" stroke="rgba(139, 92, 246, 0.2)" stroke-width="0.5"/>
+<rect x="200" y="168" width="280" height="8" fill="rgb(24, 24, 24)"/>
+<text x="340" y="162" text-anchor="middle" dominant-baseline="central" fill="rgb(139, 92, 246)" font-family="'Fira Code', monospace" font-size="14" font-weight="600">Arduino Uno R3</text>
+
+<!-- USB port -->
+<rect x="188" y="220" width="24" height="50" rx="3" fill="rgb(24, 24, 24)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1"/>
+<text x="200" y="248" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.4)" font-family="'Fira Code', monospace" font-size="11" font-weight="400">USB</text>
+
+<!-- Pin header labels - top (digital) -->
+<g>
+<text x="260" y="196" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11" font-weight="400">5V</text>
+<circle cx="260" cy="210" r="5" fill="#E24B4A" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5"/>
+
+<text x="290" y="196" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11" font-weight="400">GND</text>
+<circle cx="290" cy="210" r="5" fill="#555" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5"/>
+
+<text x="350" y="196" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11" font-weight="400">Pin 3</text>
+<circle cx="350" cy="210" r="5" fill="#8B5CF6" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5"/>
+
+<text x="390" y="196" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11" font-weight="400">Pin 4</text>
+<circle cx="390" cy="210" r="5" fill="#D85A30" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5"/>
+
+<text x="440" y="196" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11" font-weight="400">Pin 7</text>
+<circle cx="440" cy="210" r="5" fill="#00FF41" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5"/>
+</g>
+
+<!-- ULTRASONIC SENSOR -->
+<rect x="440" y="30" width="160" height="70" rx="8" fill="rgb(18, 18, 18)" stroke="#00FF41" stroke-width="1"/>
+<text x="520" y="50" text-anchor="middle" dominant-baseline="central" fill="#00FF41" font-family="'Fira Code', monospace" font-size="13" font-weight="600">Ultrasonic sensor</text>
+<text x="520" y="68" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.4)" font-family="'Fira Code', monospace" font-size="11" font-weight="400">3-pin (VCC, GND, SIG)</text>
+
+<!-- Sensor pin labels -->
+<circle cx="480" cy="100" r="4" fill="#E24B4A" stroke-width="0.5" stroke="rgba(255, 255, 255, 0.15)"/>
+<text x="480" y="116" text-anchor="middle" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">VCC</text>
+<circle cx="520" cy="100" r="4" fill="#555" stroke-width="0.5" stroke="rgba(255, 255, 255, 0.15)"/>
+<text x="520" y="116" text-anchor="middle" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">GND</text>
+<circle cx="560" cy="100" r="4" fill="#00FF41" stroke-width="0.5" stroke="rgba(255, 255, 255, 0.15)"/>
+<text x="560" y="116" text-anchor="middle" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">SIG</text>
+
+<!-- Sensor wires -->
+<!-- VCC (red) to 5V -->
+<path d="M480 104 L480 130 L260 130 L260 205" fill="none" stroke="#E24B4A" stroke-width="2" stroke-linecap="round" mask="url(#imagine-text-gaps-86gbct)"/>
+<!-- GND (gray dashed) to GND -->
+<path d="M520 104 L520 138 L290 138 L290 205" fill="none" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 2" mask="url(#imagine-text-gaps-86gbct)"/>
+<!-- SIG (green) to Pin 7 -->
+<path d="M560 104 L560 146 L440 146 L440 205" fill="none" stroke="#00FF41" stroke-width="2" stroke-linecap="round" mask="url(#imagine-text-gaps-86gbct)"/>
+
+
+<!-- LED -->
+<rect x="60" y="280" width="100" height="70" rx="8" fill="rgb(18, 18, 18)" stroke="#D85A30" stroke-width="1"/>
+<text x="110" y="302" text-anchor="middle" dominant-baseline="central" fill="#D85A30" font-family="'Fira Code', monospace" font-size="13" font-weight="600">LED</text>
+<!-- LED symbol -->
+<polygon points="95,330 125,330 110,348" fill="#D85A30" opacity="0.6"/>
+<line x1="95" y1="348" x2="125" y2="348" stroke="#D85A30" stroke-width="1.5"/>
+
+<!-- Resistor -->
+<rect x="60" y="380" width="100" height="36" rx="6" fill="rgb(18, 18, 18)" stroke="#D85A30" stroke-width="0.5"/>
+<text x="110" y="400" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">220&#937; resistor</text>
+
+<!-- LED wires -->
+<!-- Pin 4 (orange) to Resistor to LED anode -->
+<path d="M390 215 L390 430 L160 430 L160 398 L160 398" fill="none" stroke="#D85A30" stroke-width="2" stroke-linecap="round"/>
+<line x1="160" y1="398" x2="160" y2="380" stroke="#D85A30" stroke-width="1.5"/>
+<line x1="60" y1="398" x2="60" y2="380" stroke="#D85A30" stroke-width="1"/>
+<!-- Resistor to LED -->
+<line x1="110" y1="380" x2="110" y2="350" stroke="#D85A30" stroke-width="1.5"/>
+<!-- LED cathode to GND -->
+<path d="M110 280 L110 260 L180 260 L180 446 L290 446 L290 380 L290 380" fill="none" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 2" mask="url(#imagine-text-gaps-86gbct)"/>
+
+
+<!-- BUZZER -->
+<rect x="60" y="140" width="100" height="70" rx="8" fill="rgb(18, 18, 18)" stroke="#8B5CF6" stroke-width="1"/>
+<text x="110" y="162" text-anchor="middle" dominant-baseline="central" fill="#8B5CF6" font-family="'Fira Code', monospace" font-size="13" font-weight="600">Piezo buzzer</text>
+<!-- Buzzer symbol -->
+<circle cx="110" cy="188" r="10" fill="none" stroke="#8B5CF6" stroke-width="1"/>
+<text x="110" y="192" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="12">&#9835;</text>
+
+<!-- Buzzer pin labels -->
+<circle cx="90" cy="210" r="4" fill="#8B5CF6" stroke-width="0.5" stroke="rgba(255, 255, 255, 0.15)"/>
+<text x="90" y="226" text-anchor="middle" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="12">+</text>
+<circle cx="130" cy="210" r="4" fill="#555" stroke-width="0.5" stroke="rgba(255, 255, 255, 0.15)"/>
+<text x="130" y="226" text-anchor="middle" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="12">&#8722;</text>
+
+<!-- Buzzer wires -->
+<!-- (+) to Pin 3 (purple) -->
+<path d="M90 214 L90 240 L186 240 L186 350 L350 350 L350 215" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" mask="url(#imagine-text-gaps-86gbct)"/>
+<!-- (-) to GND (gray dashed) -->
+<path d="M130 214 L130 244 L176 244 L176 440 L290 440 L290 380" fill="none" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 2" mask="url(#imagine-text-gaps-86gbct)"/>
+
+
+<!-- GND rail indicator -->
+<rect x="280" y="360" width="20" height="24" rx="3" fill="rgb(24, 24, 24)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5"/>
+<text x="290" y="375" text-anchor="middle" dominant-baseline="central" fill="rgba(255, 255, 255, 0.4)" font-family="'Fira Code', monospace" font-size="12">G</text>
+
+<!-- Legend -->
+<rect x="40" y="470" width="600" height="40" rx="8" fill="rgb(18, 18, 18)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="0.5"/>
+
+<line x1="60" y1="490" x2="90" y2="490" stroke="#E24B4A" stroke-width="2.5" stroke-linecap="round"/>
+<text x="96" y="494" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">5V (red)</text>
+
+<line x1="180" y1="490" x2="210" y2="490" stroke="#666" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 2"/>
+<text x="216" y="494" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">GND (black)</text>
+
+<line x1="320" y1="490" x2="350" y2="490" stroke="#00FF41" stroke-width="2.5" stroke-linecap="round"/>
+<text x="356" y="494" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">Pin 7 (green)</text>
+
+<line x1="460" y1="490" x2="490" y2="490" stroke="#D85A30" stroke-width="2.5" stroke-linecap="round"/>
+<text x="496" y="494" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">Pin 4</text>
+
+<line x1="548" y1="490" x2="578" y2="490" stroke="#8B5CF6" stroke-width="2.5" stroke-linecap="round"/>
+<text x="584" y="494" dominant-baseline="central" fill="rgba(255, 255, 255, 0.5)" font-family="'Fira Code', monospace" font-size="11">Pin 3</text>
+
+</svg>

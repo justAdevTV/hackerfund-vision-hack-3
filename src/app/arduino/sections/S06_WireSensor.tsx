@@ -42,6 +42,24 @@ export default function S06_WireSensor() {
           </div>
         </div>
 
+        {/* Wiring Diagram */}
+        <div className="mt-8">
+          <h3 className="font-mono text-sm font-bold text-neon-cyan mb-3">
+            Full Wiring Diagram
+          </h3>
+          <div className="rounded-xl border border-neon-cyan/20 bg-[#0d0d0d] p-4 overflow-hidden">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/wiring-diagram.svg"
+              alt="Complete Tinkercad wiring diagram showing Arduino Uno R3 connected to ultrasonic sensor (Pin 7), LED with 220Ω resistor (Pin 4), and piezo buzzer (Pin 3)"
+              className="w-full h-auto"
+            />
+          </div>
+          <p className="font-mono text-xs text-foreground/30 mt-2 text-center">
+            This shows the complete build — sensor + LED + buzzer. We&apos;ll add components one at a time.
+          </p>
+        </div>
+
         <div className="mt-8 rounded-lg border border-neon-green/20 bg-neon-green/5 p-4">
           <p className="font-mono text-xs text-neon-green leading-relaxed">
             {">"} Three wires in Tinkercad, four on the real kit — that&apos;s it.
