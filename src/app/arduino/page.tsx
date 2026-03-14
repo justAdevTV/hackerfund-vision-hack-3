@@ -15,8 +15,8 @@ import S10_Theremin from "./sections/S10_Theremin";
 import S11_LCDDisplay from "./sections/S11_LCDDisplay";
 import S12_AIHelp from "./sections/S12_AIHelp";
 import S13_AIPrompts from "./sections/S13_AIPrompts";
-import S14_CheatSheet from "./sections/S13_CheatSheet";
-import S15_WhatsNext from "./sections/S14_WhatsNext";
+import S13_CheatSheet from "./sections/S13_CheatSheet";
+import S14_WhatsNext from "./sections/S14_WhatsNext";
 
 export const metadata: Metadata = {
   title: "Arduino Workshop — Hacker Fund",
@@ -51,8 +51,8 @@ export default function ArduinoPage() {
         <S11_LCDDisplay />
         <S12_AIHelp />
         <S13_AIPrompts />
-        <S14_CheatSheet />
-        <S15_WhatsNext />
+        <S13_CheatSheet />
+        <S14_WhatsNext />
       </WorkshopShell>
     </Suspense>
   );

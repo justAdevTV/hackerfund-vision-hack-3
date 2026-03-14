@@ -128,23 +128,6 @@ export default function S05_TinkercadSetup() {
           </p>
         </div>
 
-        {/* Starter template link */}
-        <div className="rounded-lg border border-border bg-surface p-5 text-center">
-          <p className="font-mono text-xs text-foreground/30 mb-2">
-            Starter template
-          </p>
-          <p className="font-mono text-sm text-neon-cyan">
-            <a
-              href="#"
-              className="underline underline-offset-4 hover:text-neon-green transition-colors"
-            >
-              [TINKERCAD_LINK]
-            </a>
-          </p>
-          <p className="text-xs text-foreground/40 mt-2">
-            Copy and Tinker to start from a working base
-          </p>
-        </div>
       </div>
     </section>
   );

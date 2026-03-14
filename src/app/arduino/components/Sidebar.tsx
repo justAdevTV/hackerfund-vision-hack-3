@@ -54,6 +54,7 @@ export default function Sidebar({ sections, activeIndex }: SidebarProps) {
 
       {/* Mobile toggle button */}
       <button
+        aria-label="Toggle navigation sidebar"
         onClick={() => setMobileOpen((prev) => !prev)}
         className="md:hidden fixed bottom-6 left-6 z-30 rounded-lg border border-border bg-surface/90 backdrop-blur-sm px-3 py-2 font-mono text-xs text-foreground/50 hover:text-neon-purple hover:border-neon-purple/30 transition-all"
       >

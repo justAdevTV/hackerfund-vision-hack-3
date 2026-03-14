@@ -28,6 +28,7 @@ function PromptCard({
           <span>{emoji}</span> {label}
         </h3>
         <button
+          aria-label={`Copy ${label} prompt to clipboard`}
           onClick={handleCopy}
           className="rounded border border-[#333] bg-[#1a1a1a] px-3 py-1.5 font-mono text-xs text-foreground/40 transition-all hover:border-neon-purple/40 hover:text-neon-purple"
         >

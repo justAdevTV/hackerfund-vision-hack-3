@@ -18,7 +18,7 @@ export default function S01_Title() {
         </h1>
 
         <p className="mt-6 max-w-xl text-lg text-foreground/50 leading-relaxed">
-          Wave your hand. Control the screen.
+          Build circuits. Write code. Make things move.
         </p>
 
         <p className="mt-4 font-mono text-sm text-foreground/30">

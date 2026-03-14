@@ -102,7 +102,7 @@ export default function S11_LCDDisplay() {
             <span className="text-neon-purple">2</span>
             {");\n"}
             {"  lcd.print("}
-            <span className="text-neon-green">&quot;Gesture Ctrl&quot;</span>
+            <span className="text-neon-green">&quot;Arduino Ctrl&quot;</span>
             {");\n"}
             {"  lcd.setCursor("}
             <span className="text-neon-purple">0</span>
@@ -276,7 +276,7 @@ export default function S11_LCDDisplay() {
         <div className="mt-6 rounded-lg border border-neon-cyan/20 bg-neon-cyan/5 p-4">
           <p className="font-mono text-xs text-neon-cyan leading-relaxed">
             <span className="font-bold">Checkpoint:</span> The LCD should show
-            &quot;Gesture Ctrl / Ready!&quot; on startup, then switch to live
+            &quot;Arduino Ctrl / Ready!&quot; on startup, then switch to live
             distance readings with zone labels on the second line.
           </p>
         </div>

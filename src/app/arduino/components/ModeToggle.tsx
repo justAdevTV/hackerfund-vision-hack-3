@@ -10,6 +10,11 @@ export default function ModeToggle({ mode, onToggle }: ModeToggleProps) {
     <button
       data-mode-toggle
       onClick={onToggle}
+      aria-label={
+        mode === "present"
+          ? "Switch to Participant Mode"
+          : "Switch to Presenter Mode"
+      }
       title={
         mode === "present"
           ? "Switch to Participant Mode"

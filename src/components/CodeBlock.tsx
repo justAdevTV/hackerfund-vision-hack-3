@@ -38,6 +38,7 @@ export default function CodeBlock({
         className={`code-block relative ${filename ? "rounded-t-none" : ""}`}
       >
         <button
+          aria-label="Copy code to clipboard"
           onClick={handleCopy}
           className="absolute right-3 top-3 rounded border border-[#333] bg-[#1a1a1a] px-2.5 py-1 font-mono text-xs text-foreground/40 opacity-0 transition-all hover:border-neon-cyan/40 hover:text-neon-cyan group-hover:opacity-100"
         >
